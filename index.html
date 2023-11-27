@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator in TS</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <h2>Enter the operands.</h2>
+    <input type="number" placeholder="Enter first operand" id="num1"/>
+    <input type="number" placeholder="Enter second operand" id="num2"/>
+    <h2>Choose from the operations below.</h2>
+    <button id="add" onclick="sum()">+</button>
+    <button id="sub" onclick="sub()">-</button>
+    <button id="mul" onclick="mul()">*</button>
+    <button id="div" onclick="div()">/</button>
+    <h4>The answer is: </h4><h1 id="res"></h1>
+<script src="calc.js"></script>
+
+</body>
+</html>
